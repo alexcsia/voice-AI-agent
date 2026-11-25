@@ -5,7 +5,21 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ai-agent</title>
+
+    <script
+      id="retell-widget"
+      src="https://dashboard.retellai.com/retell-widget-v2.js"
+      type="module"
+      data-voice-public-key="%VITE_RETELL_KEY%"
+      data-voice-agent-id="%VITE_AGENT_ID%"
+      data-title="Discover something about yourself"
+      data-color="#7357E8"
+      data-fab-text="Talk to AI"
+      data-bot-name="Discovery Agent"
+      data-show-ai-popup="false"
+    ></script>
   </head>
+
   <body>
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
